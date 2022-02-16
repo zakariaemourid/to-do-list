@@ -1,0 +1,103 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #e8e7e7;
+}
+.main-container {
+  min-width: 400px;
+  width: 60vw;
+  border: 1px solid black;
+}
+h1 {
+  background-color: #5b45b9;
+  padding: 1rem;
+  text-align: center;
+  color: white;
+}
+.items {
+  background-color: white;
+}
+.item {
+  border-bottom: 1px solid #eeeeee;
+  display: flex;
+  justify-content: space-between;
+}
+.to-do {
+  color: #5b45b9;
+  font-size: 1.4rem;
+  font-weight: bold;
+  padding: 1rem;
+}
+.edit-delete {
+  display: flex;
+  justify-content: space-between;
+}
+.edit {
+  padding: 1rem;
+  background-color: #ff851b;
+  margin: 1px;
+  cursor: pointer;
+  width: 60px;
+  text-align: center;
+}
+.delete {
+  padding: 1rem;
+  background-color: #ef5350;
+  margin: 1px;
+  cursor: pointer;
+  width: 60px;
+  text-align: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: white;
+  border-top: #5b45b9 1px solid;
+  border-bottom: #5b45b9 1px solid;
+}
+#add-item {
+  margin-right: 2rem;
+  background-color: #5b45b9;
+  border-radius: 4px;
+  height: 2.5rem;
+  width: 250px;
+  color: #eeeeee;
+  font-size: 2rem;
+}
+button {
+  all: unset;
+  background-color: #e8e7e7;
+  padding: 0.5rem 0.3rem;
+  border: 1px solid #e8e7e7;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: 0.2s ease-in;
+}
+button:hover {
+  transform: scale(1.1);
+}
+#btn-add {
+  background: #8bdb81;
+}
+#btn-edit {
+  display: none;
+  width: 80px;
+  text-align: center;
+  background: #ff851b;
+}
+.btn {
+  width: 100px;
+  text-align: center;
+}
